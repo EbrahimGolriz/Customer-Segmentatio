@@ -14,17 +14,12 @@ Customer segmentation analysis using clustering algorithms to identify distinct 
 - Campaign Responses (AcceptedCmp1-5)
 - Engagement Metrics (Recency, Web Visits, Store Purchases)
 
-## 🛠️ Key Steps
+## 🛠️ Key Steps(Full report in **Report.pdf**)
 ### 1. Data Preprocessing
-- Handled missing values (24 income entries replaced with mean)
+- Handled missing values
 - Feature engineering:
-  - `TotalSpent`: Sum of all product category purchases
-  - `TotalAcceptedCmp`: Total campaign offers accepted
-  - `Age` from Year_Birth, `Tenure` from enrollment date
 - Encoded categorical features:
-  - Education: Basic → 0, PhD → 3
-  - Marital Status: Married → 0, Widow → 4
-- Removed outliers in Age (3 records) and Income (8 records)
+- Removed outliers
 
 ### 2. Feature Standardization
 - Scaled features using StandardScaler
@@ -36,15 +31,10 @@ Customer segmentation analysis using clustering algorithms to identify distinct 
 - BIRCH
 - MiniBatchKMeans 
 - Agglomerative Clustering
-- Spectral Clustering
-
+- Mean Shift
 **Dimensionality Reduction:**
 - PCA achieved 90% variance retention with 7 components
-- Silhouette Score Comparison:
-  | Algorithm | Before PCA | After PCA |
-  |-----------|------------|-----------|
-  | K-Means   | 0.148      | 0.132     |
-  | **BIRCH** | **0.175**  | 0.154     |
+- Silhouette Score Comparison
 
 ### 4. Cluster Visualization
 ![Cluster Characteristics](reports/cluster_viz.png)
@@ -65,8 +55,3 @@ Customer segmentation analysis using clustering algorithms to identify distinct 
    - Moderate income
    - Oldest demographic (many widowed)
    - Low campaign engagement
-
-## 💻 How to Run
-1. Install dependencies:
-```bash
-pip install -r requirements.txt
