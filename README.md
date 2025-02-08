@@ -36,7 +36,7 @@ Customer segmentation analysis using clustering algorithms to identify distinct 
 - Silhouette Score Comparison
 
 ### 4. Cluster Visualization
-![Cluster Characteristics](reports/cluster_viz.png)
+
 
 ## 📊 Key Findings
 **3 Distinct Customer Segments Identified:**
