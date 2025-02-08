@@ -17,8 +17,8 @@ Customer segmentation analysis using clustering algorithms to identify distinct 
 ## 🛠️ Key Steps(Full report in **Report.pdf**)
 ### 1. Data Preprocessing
 - Handled missing values
-- Feature engineering:
-- Encoded categorical features:
+- Feature engineering
+- Encoded categorical features
 - Removed outliers
 
 ### 2. Feature Standardization
