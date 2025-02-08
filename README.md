@@ -1,7 +1,6 @@
 # Customer Personality Analysis & Segmentation
 
-![Clustering Visualization](https://img.shields.io/badge/Analysis-Clustering-blueviolet) 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+
 
 Customer segmentation analysis using clustering algorithms to identify distinct customer groups for targeted marketing strategies.
 
